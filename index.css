@@ -110,3 +110,14 @@ hr {
 	text-decoration: none;
 	margin: 0.5em;
 }
+
+.sign { 
+  width: 300px; 
+  max-width: 90%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .sign {
+    width: 150px;    }
+}
